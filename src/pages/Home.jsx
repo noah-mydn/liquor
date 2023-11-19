@@ -59,7 +59,7 @@ export const Home = ({ mobileScreen, tabletScreen, addToCart, cartItems }) => {
         >
           Special Deals
         </Typography>
-        <SpecialDeals mobileScreen={mobileScreen} tabletScreen={tabletScreen} />
+        <SpecialDeals addToCart={addToCart} />
       </Grid>
       <Grid
         item

@@ -9,7 +9,7 @@ export const specialDeals = [
     url: "./specialDeals/vodka.png",
     rate: <Rating name="read-only-rating" value={3.5} readOnly />,
     beforePrice: 29.99,
-    afterPrice: 24.99,
+    price: 24.99,
   },
   {
     id: 2,
@@ -19,7 +19,7 @@ export const specialDeals = [
     url: "./specialDeals/royalDragon.png",
     rate: <Rating name="read-only-rating" value={4} readOnly />,
     beforePrice: 49.99,
-    afterPrice: 39.99,
+    price: 39.99,
   },
   {
     id: 3,
@@ -29,7 +29,7 @@ export const specialDeals = [
     url: "./specialDeals/jackDaniels.png",
     rate: <Rating name="read-only-rating" value={4} readOnly />,
     beforePrice: 39.99,
-    afterPrice: 34.99,
+    price: 34.99,
   },
   {
     id: 4,
@@ -39,7 +39,7 @@ export const specialDeals = [
     url: "./specialDeals/brandy.png",
     rate: <Rating name="read-only-rating" value={3.5} readOnly />,
     beforePrice: 54.99,
-    afterPrice: 49.99,
+    price: 49.99,
   },
   {
     id: 5,
@@ -49,7 +49,7 @@ export const specialDeals = [
     url: "./specialDeals/hanessey.png",
     rate: <Rating name="read-only-rating" value={5} readOnly />,
     beforePrice: 79.99,
-    afterPrice: 69.99,
+    price: 69.99,
   },
   {
     id: 6,
@@ -59,6 +59,6 @@ export const specialDeals = [
     url: "./specialDeals/debowa.png",
     rate: <Rating name="read-only-rating" value={4.2} readOnly />,
     beforePrice: 44.99,
-    afterPrice: 39.99,
+    price: 39.99,
   },
 ];

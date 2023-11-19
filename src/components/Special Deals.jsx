@@ -5,7 +5,7 @@ import styled from "@emotion/styled";
 import { specialDeals } from "../data/specialDeals/specialDeals";
 import theme from "../theme/theme";
 
-export const SpecialDeals = ({ tabletScreen, mobileScreen }) => {
+export const SpecialDeals = ({ addToCart }) => {
   const [isHover, setIsHover] = React.useState(null);
 
   const handleHover = (text) => {
@@ -102,7 +102,7 @@ export const SpecialDeals = ({ tabletScreen, mobileScreen }) => {
           >
             {product?.beforePrice}
           </Typography>
-          <br />${product?.afterPrice}
+          <br />${product?.price}
         </Typography>
         <Box position="absolute" top={0} right={0}>
           <Box
@@ -151,6 +151,7 @@ export const SpecialDeals = ({ tabletScreen, mobileScreen }) => {
               marginTop: 2,
               color: "white",
             }}
+            onClick={() => addToCart(product)}
           >
             Add To Cart
           </Button>
